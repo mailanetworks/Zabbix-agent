@@ -1,0 +1,6 @@
+login as the vyos user
+sudo -i
+wget http://repo.zabbix.com/zabbix/2.2/debian/pool/main/z/zabbix/zabbix-agent_2.2.16-1+squeeze_amd64.deb
+sudo dpkg --install zabbix-agent_2.2.16-1+squeeze_amd64.deb
+
+Or use local copy
