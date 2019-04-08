@@ -1,9 +1,10 @@
 # Zabbix-agent
-Zabbix Agent for vyos
+Zabbix Agent for vyos 1.2
+(Only works on 1.2, there are others that have done for 1.1.x)
 
-Agent configurable using the same command line from System
+This agent is configurable using the same command line interface.
 
-After installation:
+After installation you set the configuration options:
 
 set system zabbix-agent ...
 
