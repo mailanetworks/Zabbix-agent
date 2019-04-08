@@ -5,7 +5,7 @@ Agent configurable using the same command line from System
 
 After installation:
 
-# set system zabbix-agent 
+set system zabbix-agent 
 Possible completions:
 - buffer-send  Do not keep data longer than N seconds in buffer.<br>
 -   buffer-size  Maximum number of values in a memory buffer.
