@@ -2,5 +2,6 @@ login as the vyos user
 sudo -i
 wget https://github.com/mailanetworks/Zabbix-agent/raw/master/zabbix-agent_2.2.16-1%2Bsqueeze_amd64.deb
 sudo dpkg --install zabbix-agent_2.2.16-1+squeeze_amd64.deb
+sudo update-rc.d zabbix-agent defaults
+sudo /etc/init.d/zabbix-agent start
 
-Or use local copy
