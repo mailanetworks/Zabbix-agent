@@ -8,7 +8,7 @@ After installation:
 set system zabbix-agent ...
 
 Possible completions:
-<- buffer-send  Do not keep data longer than N seconds in buffer.
+- buffer-send  Do not keep data longer than N seconds in buffer.
 -   buffer-size  Maximum number of values in a memory buffer.
 -   debug-level  debug level 0:no debug, 1:critical, 2:error, 3:warning 4:debug
 -   enable-remote-commands  Enable remote commands.
@@ -25,4 +25,4 @@ Possible completions:
 -  server       IP addresses (or hostnames) of Zabbix servers.
 -   server-active   IP:port (or hostname:port) pair of active check.
 -  start-agents Number of pre-forked instances of zabbix_agentd.
--   timeout      Timeout seconds on processing./>
+-   timeout      Timeout seconds on processing.
